@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo{
+    color: black;
+}
+.searchbar{
+    display: flex;
+    width: 30%;
+    padding: 15px;
+    justify-content: space-around;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    position: sticky;
+    top: 0px;
+    background-color:aquamarine;
+    align-items: center;
+}
+
+img {
+    float:right;
+}
+
+.first img{
+    transition-duration: 2s;
+}
+.first img:hover {
+    transform:scale(1.05) ;
+}
+
+button{
+    color: white;
+    background-color: black;
+}
+.float{
+    background-color: aquamarine;
+    padding: 15px;
+}
+
+.box{
+    width: 280px;
+    padding: 15px;
+    border-color: black;
+    border-width: 5 px;
+    border-style: solid;
+    display: inline-block;
+}
+
+.aboutus{
+    text-align: center;
+}
+.checkbox{
+    display: flex;
+    padding: 15px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.phead{
+    text-align: center;
+}
+.prod{
+    background-color: aquamarine;
+    display: flex;
+    padding: 15px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.pott{
+    margin-top: -30px;
+}
+.dha{
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.seller{
+    padding: 10px;
+
+}
+
+.bsc{
+    display: flex;
+    padding: 15px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+
+.girl img{
+    margin-top: -30px;
+    float: left;
+    padding-bottom: 70px;
+    margin-left: -30px;
+    transition-duration: 2s;
+}
+
+.girl img:hover{
+    transform:scale(1.05) ;
+}
+.girl{
+    display: flex;
+    background-color:aquamarine;
+    height: 300px;
+    margin-left: 30px;    
+    
+}
+.pen{
+    background-color: aquamarine ;
+    padding-left: 60px;
+    padding-top: 60px;
+    margin-left: 20px;
+    
+}
+
+
+.search{
+    width: 50%;
+    margin-left: 340;
+    padding: 10px;
+}
+.new{
+   text-align: center;
+   width: 100%;
+}
+.end{
+    background-color: aquamarine;
+    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+   
+}
+
+.social{
+    text-align: left;
+    display: flex;
+    justify-items: normal;
+}
+
+.searchbar:hover{
+    color:white;
+}
+
+.searchbar{
+    color:black;
+    cursor: pointer;
+    
+}
+.new button{
+    width: 10%;
+    transition-duration: 2s;
+}
+
+.new button:hover{
+    transform: scale(1.05);
+}
+
+.click button{
+    width: 10%;
+    transition-duration: 2s;
+}
+
+.click button:hover{
+    transform: scale(1.05);
+}
+
+.pott img{
+    transition-duration: 2s;
+}
+
+.pott img:hover{
+    transform: scale(1.05);
+}
+
+.pot img{
+    transition-duration: 2s;
+}
+
+.pot img:hover{
+    transform: scale(1.05);
+}
+
+
+.bs img{
+    transition-duration: 2s;
+}
+
+.bs img:hover{
+    transform: scale(1.05);
+}
